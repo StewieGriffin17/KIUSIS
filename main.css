@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Google Fonts for a modern look */
+    background-color: #f9f9f9; /* Light background for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Centralized content with a fixed maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #333; /* Dark text for strong contrast */
+    text-align: center; /* Centered headings */
+    margin-top: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px 15px; /* Padding for breathing room */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border */
+    margin: 10px 0; /* Space between list items */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+li:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+}
+
+/* Forms */
+form {
+    text-align: center; /* Centered forms */
+    margin-top: 20px; /* Space above forms */
+}
+
+input[type="text"] {
+    width: 80%; /* Wide input field */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Vibrant green */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    input[type="text"], select {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .container {
+        padding: 15px; /* Smaller padding for narrow screens */
+    }
+}
